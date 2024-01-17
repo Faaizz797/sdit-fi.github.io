@@ -1,0 +1,263 @@
+<!doctype html>
+<html class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDIT Fi</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="shortcut icon" href="src/img/Logo-Fi.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Header start -->
+    <header class="absolute bg-black top-0 left-0 w-full z-10 flex items-center">
+        <div class="w-full ml-auto mr-auto px-[20px] py-[15px]">
+            <div class="relative flex justify-between items-center">
+                <a href="index.html">
+                    <img src="src/img/Logo-Fi.png" alt="logo" class="w-14">
+                </a>
+                <div class="flex items-center">
+                    <button id="humburger" name="humburger" type="button" class="absolute block right-4 lg:hidden">
+                        <span class="humburger-line origin-top-left transition duration-500 ease-in-out"></span>
+                        <span class="humburger-line transition duration-500 ease-in-out"></span>
+                        <span class="humburger-line origin-bottom-left transition duration-500 ease-in-out"></span>
+                    </button>
+                    <nav id="nav-menu"
+                        class="absolute py-6 right-2 max-w-[250px] w-full bg-white top-full rounded-lg shadow-lg hidden lg:block lg:static lg:max-w-full lg:bg-transparent lg:text-white lg:shadow-none lg:group-hover:text-yellow-400 lg:py-1">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home"
+                                    class="text-lg font-bold py-2 mx-8 flex hover:text-slate-500 lg:hover:text-yellow-400 transition duration-300 ease-in-out">Home</a>
+                            </li>
+                            <li>
+                                <a href="#profile"
+                                    class="text-lg font-bold py-2 mx-8 flex hover:text-slate-500 lg:hover:text-yellow-400 transition duration-300 ease-in-out">Profile</a>
+                            </li>
+                            <li>
+                                <a href="#about"
+                                    class="text-lg font-bold py-2 mx-8 flex hover:text-slate-500 lg:hover:text-yellow-400 transition duration-300 ease-in-out">About</a>
+                            </li>
+                            <li>
+                                <a href="#mentors"
+                                    class="text-lg font-bold py-2 mx-8 flex hover:text-slate-500 lg:hover:text-yellow-400 transition duration-300 ease-in-out">Mentors</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header end -->
+
+    <!-- Home Section Start -->
+    <section id="home">
+        <div class="w-full relative h-screen">
+            <!-- <img src="src/img/home-bg.jpg" alt="background" class="w-full h-full absolute object-cover"> -->
+            <video src="src/img/bg-video.mp4" alt="background" class="w-full h-full absolute object-cover" autoplay
+                muted loop playsinline></video>
+            <div class="absolute top-0 left-0 w-full h-full bg-black/50">
+                <div class="absolute w-full h-full justify-center text-center top-0 left-0 flex flex-col">
+                    <img src="src/img/Logo-Fi.png" alt="" class="max-w-40 mx-auto mb-7">
+                    <h1 class="text-yellow-500 bg-white/10 text-3xl font-bold mb-3 md:text-5xl py-3">SDIT FITRAH INSANI
+                    </h1>
+                    <p class="text-white text-lg mb-10 md:text-2xl">"Menjaga <span class="font-bold">Fitrah</span>
+                        Membina <span class="font-bold">Insan Kamil</span>."</p>
+                    <div class="flex flex-row justify-center">
+                        <a href="https://fithrahinsani.org/pendaftaran/"><button
+                                class="text-white font-semibold text-base border-2 py-3 px-3 rounded-lg hover:text-yellow-500 hover:bg-black/55 transition duration-500 ease-in-out mr-3">
+                                Daftar Sekarang !
+                            </button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Home Section End -->
+
+    <!-- Profile Section Start -->
+    <hr>
+    <section id="profile" style="background-color: rgb(32, 32, 32);">
+        <div class="max-w-[1240px] mx-auto py-16 px-4 lg:py-19 text-center">
+            <h1 class="font-bold text-white text-3xl mb-3 italic">Sekolah Dasar <span class="text-yellow-400">Islam
+                    Terpadu</span></h1>
+            <p class="text-white text-xl mb-1">Kami mendidik para siswa agar memiliki dasar Aqidah yang benar, berakhlak
+                islami, berilmu, dan mandiri.</p>
+            <div class="container mx-auto px-5 py-2 lg:px-32 lg:pt-24">
+                <div class="-m-1 flex flex-wrap md:-m-2">
+                    <div class="flex w-1/2 flex-wrap">
+                        <div class="w-1/2 p-1 md:p-2">
+                            <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center" src="src/img/img3.jpg" />
+                        </div>
+                        <div class="w-1/2 p-1 md:p-2">
+                            <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center" src="src/img/img2.jpg" />
+                        </div>
+                        <div class="w-full p-1 md:p-2">
+                            <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center" src="src/img/img5.jpg" />
+                        </div>
+                    </div>
+                    <div class="flex w-1/2 flex-wrap">
+                        <div class="w-full p-1 md:p-2">
+                            <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center" src="src/img/img4.jpg" />
+                        </div>
+                        <div class="w-1/2 p-1 md:p-2">
+                            <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center" src="src/img/img1.jpg" />
+                        </div>
+                        <div class="w-1/2 p-1 md:p-2">
+                            <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center" src="src/img/img6.jpeg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Profile Section End -->
+
+    <!-- About section start -->
+    <hr>
+    <section style="background-color: rgb(32, 32, 32);" id="about">
+        <div class="max-w-[1240px] mx-auto py-10 px-4">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-6 lg:w-1/2 text-white">
+                    <h1 class="font-bold text-3xl mb-3 italic">TENTANG <span class="text-yellow-400">KAMI</span></h1>
+                    <h3 class="font-semibold text-2xl  mb-2">Daftarkan anak anda <span
+                            class="text-yellow-400">sekarang!</span></h3>
+                    <p class="text-lg">Misi kami adalah untuk mendidik dan meluluskan siswa dengan keunggulan dala
+                        kepribadian islami, keterampilan, kemandirian dan juga keilmuan. Tentu saja kami juga melakukan
+                        itu semua dengan SDM, sarana, dan prasarana yang berkualitas.</p>
+                </div>
+                <div class="w-full px-4 py-3 lg:w-1/2 lg:pt-10 text-white">
+                    <h1 class="font-semibold text-2xl mb-2">MEDIA <span class="text-yellow-400">SOSIAL</span></h1>
+                    <p class="mb-5 text-lg">Ikuti kami di sosial media!</p>
+                    <div class="flex item-center">
+                        <a href="#"
+                            class="mr-4 border rounded-full w-10 h-10 flex justify-center items-center border-white hover:bg-gradient-to-tr from-orange-500 to-purple-700 transition duration-500 ease-in-out hover:text-white">
+                            <svg role="img" width="20px" class="fill-current" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <title>Instagram</title>
+                                <path
+                                    d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z" />
+                            </svg>
+                        </a>
+                        <a href="#"
+                            class="mr-4 border rounded-full w-10 h-10 flex justify-center items-center border-white hover:bg-blue-600 transition duration-500 ease-in-out hover:text-white">
+                            <svg role="img" width="20px" class="fill-current" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <title>Facebook</title>
+                                <path
+                                    d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z" />
+                            </svg>
+                        </a>
+                        <a href="#"
+                            class="mr-4 border rounded-full w-10 h-10 flex justify-center items-center border-white hover:bg-gradient-to-bl from-slate-600 to-black transition duration-500 ease-in-out hover:text-white">
+                            <svg role="img" width="20px" class="fill-current" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <title>X</title>
+                                <path
+                                    d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About section end -->
+
+    <!-- Team Section Start -->
+    <hr>
+    <section id="mentors" style="background-color: rgb(32, 32, 32);">
+        <div class="max-w-[1240px] mx-auto py-16 px-4 lg:py-19 text-center">
+            <h1 class="font-bold text-white text-3xl mb-3 italic uppercase">Pembimbing <span
+                    class="text-yellow-400">Kami</span></h1>
+
+            <div class="grid-cols-1 sm:grid md:grid-cols-3">
+                <div
+                    class="mx-3 mt-6 flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:scale-105 transition duration-500 ease-in-out dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+
+                    <img class="rounded-t-lg w-full h-full" src="src/img/person-icon.jpeg" alt="img" />
+
+                    <div class="p-6">
+                        <h5 class="mb-2 text-2xl font-bold leading-tight text-yellow-400 dark:text-yellow-400">
+                            Fulan Fulan S.pd
+                        </h5>
+                        <p class="mb-4 text-lg font-semibold text-neutral-600 dark:text-neutral-200">
+                            [Kepala Yayasan]
+                        </p>
+                    </div>
+                </div>
+                <div
+                    class="mx-3 mt-6 flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:scale-105 transition duration-500 dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+
+                    <img class="rounded-t-lg w-full h-full" src="src/img/person-icon.jpeg" alt="img" />
+
+                    <div class="p-6">
+                        <h5 class="mb-2 text-2xl font-bold leading-tight text-yellow-400 dark:text-yellow-400">
+                            Fulan Fulan S.pd
+                        </h5>
+                        <p class="mb-4 text-lg font-semibold text-neutral-600 dark:text-neutral-200">
+                            [Kepala Sekolah]
+                        </p>
+                    </div>
+                </div>
+                <div
+                    class="mx-3 mt-6 flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:scale-105 transition duration-500 dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+
+                    <img class="rounded-t-lg w-full h-full" src="src/img/person-icon-fm.jpeg" alt="img" />
+
+                    <div class="p-6">
+                        <h5 class="mb-2 text-2xl font-bold leading-tight text-yellow-400 dark:text-yellow-400">
+                            Fulanah Fulanah S.pd
+                        </h5>
+                        <p class="mb-4 text-lg font-semibold text-neutral-600 dark:text-neutral-200">
+                            [Wakil Kepala Sekolah ]
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team Section End -->
+
+    <!-- Footer Start-->
+    <hr>
+    <footer style="background-color: rgb(32, 32, 32);"
+        class="flex flex-col items-center text-center text-white dark:bg-black">
+        <div class="container pt-9">
+            <div class="mb-9 flex justify-center">
+                <a href="https://www.instagram.com/just.faaizz_/"
+                    class="mr-5 border rounded-full w-7 h-7 flex items-center justify-center border-yellow-400 dark:text-yellow-400 hover:bg-yellow-400 hover:text-black transition duration-300 ease-in-out">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                    </svg>
+                </a>
+                <a href="www.linkedin.com/in/faiz-902239285"
+                    class="mr-5 border rounded-full w-7 h-7 flex items-center justify-center border-yellow-400 dark:text-yellow-400 hover:bg-yellow-400 hover:text-black transition duration-300 ease-in-out">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+                    </svg>
+                </a>
+                <a href="https://github.com/Faaizz797"
+                    class="border rounded-full w-7 h-7 flex items-center justify-center border-yellow-400 dark:text-yellow-400 hover:bg-yellow-400 hover:text-black transition duration-300 ease-in-out">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <!--Copyright-->
+        <div class="w-full font-bold bg-black p-4 text-center text-neutral-700 dark:bg-black dark:text-white">
+            © 2023 Copyright :
+            <a class="font-bold text-white dark:text-white" href="https://tw-elements.com/">Faaizz_</a>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="src/js/script.js"></script>
+</body>
+
+</html>
